@@ -24,9 +24,11 @@
 html {
   font-size: 16px;
   line-height: 1.5;
-  font-family: "droid-serif", 'Inter Web', 'Helvetica Neue', Helvetica, arial, sans-serif;
+  font-family: 'droid-serif', 'Inter Web', 'Helvetica Neue', Helvetica, arial, sans-serif;
   color: #737c80;
   padding: 48px 24px 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -72,6 +74,7 @@ h3 {
 }
 
 h1 {
+  font-family: 'Playfair Display', serif;
   font-size: 36px;
   line-height: 40px;
   margin: 0 0 24px;
