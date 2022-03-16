@@ -7,8 +7,8 @@
 html {
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
-    color: #111;
+    font-family: "Inter","Helvetica Neue", Helvetica, arial, sans-serif;
+    color: #737C80;
     padding: 48px 24px 24px;
 }
 
@@ -25,7 +25,7 @@ body {
  */
 
 ::selection {
-    background: #e85e00;
+    background: #4DC9FF;
     color: white;
     text-shadow: none;
 }
@@ -46,6 +46,13 @@ img {
     ---
     Default markup for typographic elements
 */
+
+
+h1,
+h2,
+h3 {
+    color: #17181A;
+}
 
 h1 {
     font-family: "Times New Roman", serif;
@@ -129,12 +136,12 @@ a {
 
 a:visited,
 a:active {
-    color: BlueViolet;
+    color: B#4DC9FF;
 }
 
 a:hover,
 a:focus {
-    color: Crimson;
+    color: #B3E8FF;
 }
 
 /* Small devices (landscape phones, 576px and up) */
